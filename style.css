@@ -1,0 +1,6 @@
+
+body {
+  background-color: black;
+  Color:#FFF;} /*I've added a color rule, this should make all the text white. except links (whichi I think were the default before.)*/
+.center {
+  text-align: center;}

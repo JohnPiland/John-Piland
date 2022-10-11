@@ -1,36 +1,40 @@
 <!DOCTYPR html>
 <html>
 <head>
-  /* The following command is showing my ability to give a website a unique background color */
-  <style>
-  body {background-color: black;}
-  .center {
-  text-align: center;
-}
-</style>
-/* In the following links, I am displaying the ability to add a link, have it open in a new tab, and control the color of the linked text. I am also displaying the ability to format text and give it a color*/
-<div class="center">
-<h1 style="color:white"> Evaluation 2 - A Review of <a href="https://www.johnston.k12.nc.us/domain/890" target="_blank" style="color:blue"> West Johnston High School's Library Webpage </a></h1>
-<h2 style="color:white"><a href="https://github.com/JohnPiland" target="_blank" style="color:blue"> John Piland </a></h2>
-</div>
-</head>
-<body>
-<h2 style="color:white"> Mission </h2>
-<p style="color:white"> For the purposes of this assignment, I chose none other than my old high school’s, West Johnston High School’s, <a href="https://www.johnston.k12.nc.us/domain/890" target="_blank" style="color:blue">library</a>. The first thing to note – and this is rather apparent when looking at it – the library itself does not have its own dedicated website, but is instead housed on the school’s main website. That said, the page functions well enough as a library website and for the purposes of this assignment. </p>
-<h2 style="color:white"> Analysis </h2>
-<p style="color:white"> The page is labeled “Library / Media Center”, indicating for students and staff that it is a page for both resource areas, which are themselves a part of the same complex within the school. On the school’s page, it is housed under the “Students” section. For the purposes of a school library’s webpage, it is well put together. The focal point of the homepage of the library section contains a welcome message meant for students, with the function of making them feel welcomed and encouraged to check out the library, its webpage, and its resources. Beneath that is a graphic containing various functions the library and media offer to students. Following are the library’s hours of operation, the librarians’ contact information, a photo of the librarians for students to familiarize themselves with them, and social media links for visitors to follow the library. </p>
+<!--  /* The following command is showing my ability to give a website a unique background color */ <- This is the wrong format for HTML. These will work in CSS
+Z - Removed body style rule to external style sheet.
+/* In the following links, I am displaying the ability to add a link, have it open in a new tab, and control the color of the linked text. I am also displaying the ability to format text and give it a color*/-->
+  <title>Evaluation 2</title> <!--Don't forget the required tags Title, and a meta author tag-->
+  <meta author="john Piland">
+  <link rel="stylesheet" href="style.css"><!--Z- Added external stylesheet link for the css fixes.-->
+</head> <!--Remember to close tags-->
+<body><!--Remember that the body tag wraps every thing that you want to display in the broswer-->
+  <header><!--I added a header tag, which is the semantically valid tag to wrap the header, or banner, or top area of your site here. I left left the div tag as it does it's job well. However, remember that the div tag is becoming less and less used.-->
+    <div class="center">
+      <h1 >Evaluation 2 - A Review of <a href="https://www.johnston.k12.nc.us/domain/890" target="_blank" style="color:blue"> West Johnston High School's Library Webpage </a><h1>
+      <h2 ><a href="https://github.com/JohnPiland" target="_blank" style="color:blue"> John Piland</a></h2>
+    </div>
+  </header>
+  <main>
+    <h2>Mission</h2>
+    <p>For the purposes of this assignment, I chose none other than my old high school’s, West Johnston High School’s, <a href="https://www.johnston.k12.nc.us/domain/890" target="_blank" style="color:blue">library</a>. The first thing to note – and this is rather apparent when looking at it – the library itself does not have its own dedicated website, but is instead housed on the school’s main website. That said, the page functions well enough as a library website and for the purposes of this assignment. </p>
+    <h2  > Analysis </h2>
+    <p  > The page is labeled “Library / Media Center”, indicating for students and staff that it is a page for both resource areas, which are themselves a part of the same complex within the school. On the school’s page, it is housed under the “Students” section. For the purposes of a school library’s webpage, it is well put together. The focal point of the homepage of the library section contains a welcome message meant for students, with the function of making them feel welcomed and encouraged to check out the library, its webpage, and its resources. Beneath that is a graphic containing various functions the library and media offer to students. Following are the library’s hours of operation, the librarians’ contact information, a photo of the librarians for students to familiarize themselves with them, and social media links for visitors to follow the library. </p>
 
-<p style="color:white"> Further down the library’s main page are a couple of resources, namely Destiny Discover and Student<em>Access</em>, each of these being aids for students in finding library materials. Accompanying each is a guide for students on how to log in to the resources. Finishing up the homepage is a gallery of photos showing off various features within the library, from group study areas, to reading and relaxation stations, to makerspaces, and more. </p>
+    <p> Further down the library’s main page are a couple of resources, namely Destiny Discover and Student<em>Access</em>, each of these being aids for students in finding library materials. Accompanying each is a guide for students on how to log in to the resources. Finishing up the homepage is a gallery of photos showing off various features within the library, from group study areas, to reading and relaxation stations, to makerspaces, and more. </p>
 
-<P style="color:white"> The subpages of the library are a collection of information and tutorials, introducing the librarians, ways the library can help students and teachers alike, educating students on copyright information, and further guiding them through the aforementioned library resources. There are also links to and descriptions of more library resources, as well as advertisements for things such as the library’s makerspace, and the library’s Battle of the Books team. </p>
-<h2 style="color:white"> Review </h2>
-<p style="color:white"> For only occupying a small section of the school’s website, the library’s page does a remarkable job of accomplishing its goals and supplying all the necessary information and resources for students, staff, and the library itself. The way the subpages are organized in a vertical list on the left hand side of the page is orderly and sufficient in placing important information and resources above more miscellaneous things such as student orgs and events, or staff-only resources. It’s the perfect size for a school library. If I could suggest anything, it would be a guide on utilizing the Dewey Decimal system to aid students in finding their materials in the library, though the call numbers available through the catalog and numbers displayed on the shelves do that job for the students well enough. With that out of the way, I would give this website a 10 out of 10 for effectiveness in fulfilling its purpose. </p>
-<h2 style="color:white"> Gallery </h2>
-/* The following is me displaying hyperlinks as images. */
-<a href="https://www.johnston.k12.nc.us/domain/890" target="_blank">
-<img src="images/Lib1.jpg" />
-<img src="images/Lib2.jpg" />
-<img src="images/Lib3.jpg" />
-</a>
+    <P  >The subpages of the library are a collection of information and tutorials, introducing the librarians, ways the library can help students and teachers alike, educating students on copyright information, and further guiding them through the aforementioned library resources. There are also links to and descriptions of more library resources, as well as advertisements for things such as the library’s makerspace, and the library’s Battle of the Books team. </p>
+    <h2> Review </h2>
+    <p> For only occupying a small section of the school’s website, the library’s page does a remarkable job of accomplishing its goals and supplying all the necessary information and resources for students, staff, and the library itself. The way the subpages are organized in a vertical list on the left hand side of the page is orderly and sufficient in placing important information and resources above more miscellaneous things such as student orgs and events, or staff-only resources. It’s the perfect size for a school library. If I could suggest anything, it would be a guide on utilizing the Dewey Decimal system to aid students in finding their materials in the library, though the call numbers available through the catalog and numbers displayed on the shelves do that job for the students well enough. With that out of the way, I would give this website a 10 out of 10 for effectiveness in fulfilling its purpose. </p>
+    <h2> Gallery </h2>
+<!--/* The following is me displaying hyperlinks as images. */--> <!--Css comment format, I've added in the HTML tags--><!--Also this links the enclosed images, not displays the hyperlink as image.-->
+    <a href="https://www.johnston.k12.nc.us/domain/890" target="_blank">
+      <img src="images/Lib1.jpg" /> <!--These were broken because they didn't live in the images folder. Moved them and it fixed it..-->
+      <img src="images/Lib2.jpg" />
+      <img src="images/Lib3.jpg" />
+    </a>
+<footer>
+  <!--add your name, a mailto: link, and a date complete here-->
+</footer>
 </body>
 </html>
